@@ -1,0 +1,26 @@
+.index__section__main__card {
+  display: grid;
+  width: 100%;
+  grid-template-areas:
+    "head"
+    "plu"
+    "pru";
+  grid-gap: 1rem;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+  justify-content: center;
+}
+
+.index__section__main__h1 {
+  grid-area: "head";
+  justify-self: center;
+  margin-top: 1rem;
+}
+
+.index__section__main__pl {
+  grid-area: "plu";
+}
+
+.index__section__main__pr {
+  grid-area: "pru";
+}

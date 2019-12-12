@@ -1,0 +1,19 @@
+#main__nav {
+  display: flex;
+  justify-content: space-around;
+  line-height: 2rem;
+  background: var(--bg-primary);
+}
+
+.nav__item {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.nav__item a {
+  text-decoration: none;
+}
+
+.nav__item a:hover {
+  color: var(--text-secondary);
+}

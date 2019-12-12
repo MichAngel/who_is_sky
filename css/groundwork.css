@@ -1,0 +1,24 @@
+/* css reset w/ basics */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-display: arial, helvetica;
+  line-height: 1.5rem;
+  color: var(--text-primary);
+}
+
+/* color variables */
+
+:root {
+  /* backgrounds */
+  --bg-primary: rgb(245, 182, 192);
+  --bg-secondary: lightgrey;
+
+  /* text colors */
+  --text-primary: rgb(31, 84, 138);
+  --text-secondary: #000;
+
+  /* test colors */
+  --test: navy;
+}
