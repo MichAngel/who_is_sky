@@ -1,0 +1,18 @@
+.img_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.img_container {
+  width: 100%;
+}
+
+.img_container:first-child {
+  margin-top: 1rem;
+}
+
+.img_container img {
+  max-width: 100%;
+}

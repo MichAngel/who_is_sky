@@ -12,12 +12,12 @@
 
 :root {
   /* backgrounds */
-  --bg-primary: rgb(245, 182, 192);
-  --bg-secondary: lightgrey;
+  --bg-primary: #b22234;
+  --bg-secondary: #aebcc4;
 
   /* text colors */
-  --text-primary: rgb(31, 84, 138);
-  --text-secondary: #000;
+  --text-primary: #3c3b6e;
+  --text-secondary: #fff;
 
   /* test colors */
   --test: navy;
