@@ -1,0 +1,38 @@
+.blog_wrapper {
+  display: grid;
+  grid-gap: 0.5rem;
+  width: 100%;
+  height: 100vh;
+  grid-template-areas:
+    "hero pt"
+    "ht pt"
+    "pl pr"
+    "pb pb";
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.blog_hero {
+  grid-area: hero;
+  width: 100%;
+}
+
+.blog_ht {
+  grid-area: ht;
+}
+
+.blog_pl {
+  grid-area: pl;
+}
+
+.blog_pt {
+  grid-area: pt;
+}
+
+.blog_pr {
+  grid-area: pr;
+}
+
+.blog_pb {
+  grid-area: pb;
+}
