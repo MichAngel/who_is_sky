@@ -1,11 +1,11 @@
 .blog_wrapper {
   display: grid;
-  grid-gap: 0.5rem;
+  grid-gap: 1rem;
   width: 100%;
   height: 100vh;
   grid-template-areas:
+    "hero ht"
     "hero pt"
-    "ht pt"
     "pl pr"
     "pb pb";
   grid-template-rows: 1fr 1fr;
@@ -15,10 +15,13 @@
 .blog_hero {
   grid-area: hero;
   width: 100%;
+  max-height: 50vh;
 }
 
 .blog_ht {
   grid-area: ht;
+  align-self: center;
+  justify-self: center;
 }
 
 .blog_pl {

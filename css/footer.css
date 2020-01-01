@@ -1,9 +1,8 @@
 .footer__card {
-  position: bottom relative;
+  position: bottom absolute;
   background: var(--bg-primary);
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   margin-top: 2rem;
   padding-top: 1rem;
 }
